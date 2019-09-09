@@ -2,7 +2,7 @@
 
 ## New Features
 
-1. Added boilerplate code.
+1. Added the cube.
 
 ## Changes
 
