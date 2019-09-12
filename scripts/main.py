@@ -1,11 +1,14 @@
 import uni_vars as uv
 import pygame
 from cube import Cube
+from plat import Platform
 
 
 class Game:
 	def start(self):
 		self.player = Cube(uv.width / 2, uv.height / 2, 60)
+		self.platform1 = Platform(uv.width / 2 - 200, uv.height - 150, 200, 70)
+		self.platform2 = Platform(uv.width / 2 + 50, uv.height - 300, 200, 70)
 
 	def logic(self):
 		keys = pygame.key.get_pressed()
@@ -45,10 +48,14 @@ class Game:
 			self.player.y_vel = -uv.gravity
 			self.player.y = uv.height - self.player.height
 
+		self.platform1.collision(self.player)
+		self.platform2.collision(self.player)
 		self.player.update()
 
 	def render(self):
 		self.player.render()
+		self.platform1.render()
+		self.platform2.render()
 
 
 

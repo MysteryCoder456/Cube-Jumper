@@ -16,7 +16,7 @@ To install this game follow these steps:
   1. Install the Python 3 Interpreter from <https://www.python.org/>.
   2. Go to Command Prompt/Terminal on your computer and enter "pip install pygame".
   3. Then, clone or download this repository.
-  4. Drag the icon of the folder to Command Prompt/Terminal and type "python3 scripts/main.py"
+  4. Open this folder in Command Prompt/Terminal and enter "python3 scripts/main.py"
 
 **If you get any errors please just copy paste the error into google and press enter.**
 

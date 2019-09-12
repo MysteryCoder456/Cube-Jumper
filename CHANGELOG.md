@@ -2,8 +2,8 @@
 
 ## New Features
 
-1. Added the cube.
+1. Added platforms (with collisions).
 
 ## Changes
 
-None
+1. Changed README.md (line 19).
