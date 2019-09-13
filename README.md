@@ -22,8 +22,7 @@ To install this game follow these steps:
 
 ## How to play
 
-The controls are simple: left and right arrow keys for turning and up arrow key for boosting.
-You have to collect food and grow longer and longer. If you touch the edges, you die.
+The controls are simple: left and right arrow keys for moving and up arrow key for jumping.
 
 ## Issues
 
